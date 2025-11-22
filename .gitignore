@@ -1,0 +1,17 @@
+# --- Data ---
+# Ignore the raw data folder (Sensitive info)
+data/raw/
+
+# Ignore specific sensitive files if they are in the root
+zw issue_tracker_script.csv
+*.csv
+
+# --- Python ---
+# Ignore compiled python files (junk files)
+__pycache__/
+*.pyc
+
+# --- System ---
+# Ignore annoyance files created by Windows/Mac
+.DS_Store
+Thumbs.db
